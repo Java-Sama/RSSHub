@@ -824,6 +824,20 @@
       }
     ]
   },
+  "aliyundrive.com": {
+    "_name": "阿里云盘",
+    "www": [
+      {
+        "title": "文件列表",
+        "docs": "https://docs.rsshub.app/programming.html#a-li-yun-pan",
+        "source": [
+          "/s/:share_id",
+          "/s/:share_id/folder/:parent_file_id"
+        ],
+        "target": "/aliyundrive/files/:share_id/:parent_file_id?"
+      }
+    ]
+  },
   "allrecode.com": {
     "_name": "重构",
     ".": [
@@ -1891,16 +1905,38 @@
       }
     ]
   },
+  "bluestacks.com": {
+    "_name": "BlueStacks",
+    ".": [
+      {
+        "title": "BlueStacks 5 版本日誌",
+        "docs": "https://docs.rsshub.app/program-update.html#bluestacks",
+        "source": [
+          "/hc/en-us/articles/360056960211-Release-Notes-BlueStacks-5",
+          "/"
+        ],
+        "target": "/bluestacks/release/5"
+      }
+    ]
+  },
   "bnu.edu.cn": {
     "_name": "北京师范大学",
     ".": [
       {
         "title": "经济与工商管理学院",
-        "docs": "https://docs.rsshub.app/universities.html#bei-jing-shi-fan-da-xue-jing-ji-yu-gong-shang-guan-li-xue-yuan",
+        "docs": "https://docs.rsshub.app/university.html#bei-jing-shi-fan-da-xue",
         "source": [
           "/"
         ],
         "target": "/bs/:category?"
+      },
+      {
+        "title": "经济与工商管理学院",
+        "docs": "https://docs.rsshub.app/university.html#bei-jing-shi-fan-da-xue",
+        "source": [
+          "/"
+        ],
+        "target": "/bnu/dwxgb/:category/:type"
       }
     ]
   },
@@ -2922,6 +2958,17 @@
       }
     ]
   },
+  "cts.com.tw": {
+    "_name": "華視",
+    "news": [
+      {
+        "title": "新聞",
+        "docs": "https://docs.rsshub.app/traditional-media.html#hua-shi-xin-wen",
+        "source": "/:category/index.html",
+        "target": "/cts/:category"
+      }
+    ]
+  },
   "dahecube.com": {
     "_name": "大河财立方",
     ".": [
@@ -2989,6 +3036,35 @@
         "title": "分类",
         "docs": "https://docs.rsshub.app/picture.html#bu-xiu-se",
         "source": "/"
+      }
+    ]
+  },
+  "dcard.tw": {
+    "_name": "Dcard",
+    "www": [
+      {
+        "title": "首頁帖子-最新",
+        "docs": "https://docs.rsshub.app/bbs.html#dcard",
+        "source": "/f",
+        "target": "/dcard/posts/latest"
+      },
+      {
+        "title": "首頁帖子-熱門",
+        "docs": "https://docs.rsshub.app/bbs.html#dcard",
+        "source": "/f",
+        "target": "/dcard/posts/popular"
+      },
+      {
+        "title": "板塊帖子-最新",
+        "docs": "https://docs.rsshub.app/bbs.html#dcard",
+        "source": "/f/:section",
+        "target": "/dcard/:section/latest"
+      },
+      {
+        "title": "板塊帖子-熱門",
+        "docs": "https://docs.rsshub.app/bbs.html#dcard",
+        "source": "/f/:section",
+        "target": "/dcard/:section/popular"
       }
     ]
   },
@@ -4587,6 +4663,45 @@
       }
     ]
   },
+  "gamme.com.tw": {
+    "_name": "卡卡洛普",
+    "news": [
+      {
+        "title": "宅宅新聞 - 分類",
+        "docs": "https://docs.rsshub.app/new-media.html#ka-ka-luo-pu",
+        "source": [
+          "/category/:category",
+          "/"
+        ]
+      },
+      {
+        "title": "宅宅新聞 - 標籤",
+        "docs": "https://docs.rsshub.app/new-media.html#ka-ka-luo-pu",
+        "source": [
+          "/tag/:tag"
+        ],
+        "target": "/gamme/news/tag/:tag"
+      }
+    ],
+    "sexynews": [
+      {
+        "title": "西斯新聞 - 分類",
+        "docs": "https://docs.rsshub.app/new-media.html#ka-ka-luo-pu",
+        "source": [
+          "/category/:category",
+          "/"
+        ]
+      },
+      {
+        "title": "西斯新聞 - 標籤",
+        "docs": "https://docs.rsshub.app/new-media.html#ka-ka-luo-pu",
+        "source": [
+          "/tag/:tag"
+        ],
+        "target": "/gamme/sexynews/tag/:tag"
+      }
+    ]
+  },
   "gaze.run": {
     "_name": "注视影视",
     ".": [
@@ -5299,6 +5414,18 @@
       }
     ]
   },
+  "nopss.gov.cn": {
+    "_name": "全国哲学社会科学工作办公室",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/government.html#quan-guo-zhe-xue-she-hui-ke-xue-gong-zuo-ban-gong-shi",
+        "source": [
+          "/*path"
+        ]
+      }
+    ]
+  },
   "nrta.gov.cn": {
     "_name": "国家广播电视总局",
     ".": [
@@ -5496,6 +5623,32 @@
         "source": [
           "/*"
         ]
+      }
+    ]
+  },
+  "greasyfork.org": {
+    "_name": "Greasy Fork",
+    ".": [
+      {
+        "title": "User scripts",
+        "docs": "https://docs.rsshub.app/program-update.html#greasy-fork",
+        "source": [
+          "/:language",
+          "/:language/scripts/by-site/:domain?"
+        ],
+        "target": "/greasyfork/:language/:domain?"
+      },
+      {
+        "title": "Feedback",
+        "docs": "https://docs.rsshub.app/program-update.html#greasy-fork",
+        "source": "/:language/scripts/:script/feedback",
+        "target": "/greasyfork/scripts/:script/feedback"
+      },
+      {
+        "title": "Version history",
+        "docs": "https://docs.rsshub.app/program-update.html#greasy-fork",
+        "source": "/:language/scripts/:script/versions",
+        "target": "/greasyfork/scripts/:script/versions"
       }
     ]
   },
@@ -6455,6 +6608,14 @@
         "docs": "https://docs.rsshub.app/new-media.html#hu-xiu",
         "source": [
           "/collection/:id",
+          "/"
+        ]
+      },
+      {
+        "title": "简报",
+        "docs": "https://docs.rsshub.app/new-media.html#hu-xiu",
+        "source": [
+          "/briefColumn/:id",
           "/"
         ]
       }
@@ -9020,6 +9181,19 @@
       }
     ]
   },
+  "garena.tw": {
+    "_name": "Garena",
+    "lol": [
+      {
+        "title": "英雄联盟台服新闻",
+        "docs": "https://docs.rsshub.app/game.html#ying-xiong-lian-meng-tai-fu-xin-wen",
+        "source": [
+          "/news/:category",
+          "/news"
+        ]
+      }
+    ]
+  },
   "lovelive-anime.jp": {
     "_name": "Love Live 官网",
     "www": [
@@ -9123,6 +9297,48 @@
           "/"
         ],
         "target": "/macfilos/blog"
+      }
+    ]
+  },
+  "manhuagui.com": {
+    "_name": "漫画柜",
+    "www": [
+      {
+        "title": "漫画柜个人订阅",
+        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
+        "source": "/user/book/shelf",
+        "target": "/manhuagui/subscribe"
+      },
+      {
+        "title": "漫画更新",
+        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
+        "source": "/comic/:id/",
+        "target": "/manhuagui/comic/:id"
+      }
+    ],
+    "tw": [
+      {
+        "title": "漫画更新",
+        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
+        "source": "/comic/:id/",
+        "target": "/manhuagui/twmanhuagui/comic/:id"
+      }
+    ]
+  },
+  "mhgui.com": {
+    "_name": "漫画柜镜像站",
+    "www": [
+      {
+        "title": "漫画柜个人订阅",
+        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
+        "source": "/user/book/shelf",
+        "target": "/manhuagui/subscribe"
+      },
+      {
+        "title": "漫画更新",
+        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
+        "source": "/comic/:id/",
+        "target": "/manhuagui/comic/:id"
       }
     ]
   },
@@ -10109,6 +10325,20 @@
       }
     ]
   },
+  "nextapple.com": {
+    "_name": "壹蘋新聞網",
+    "tw": [
+      {
+        "title": "最新新聞",
+        "docs": "https://docs.rsshub.app/new-media.html#yi-ping-xin-wen-wang",
+        "source": [
+          "/",
+          "/realtime/:category"
+        ],
+        "target": "/nextapple/realtime/:category?"
+      }
+    ]
+  },
   "nga.cn": {
     "_name": "NGA",
     "bbs": [
@@ -10132,6 +10362,26 @@
   "178.com": {
     "_name": "NGA",
     "nga": [
+      {
+        "title": "分区帖子",
+        "docs": "https://docs.rsshub.app/bbs.html#nga-fen-qu-tie-zi",
+        "source": "/thread.php"
+      },
+      {
+        "title": "帖子",
+        "docs": "https://docs.rsshub.app/bbs.html#nga-tie-zi",
+        "source": "/read.php"
+      },
+      {
+        "title": "帖子 - 只看作者",
+        "docs": "https://docs.rsshub.app/bbs.html#nga-tie-zi",
+        "source": "/read.php"
+      }
+    ]
+  },
+  "ngabbs.com": {
+    "_name": "NGA",
+    ".": [
       {
         "title": "分区帖子",
         "docs": "https://docs.rsshub.app/bbs.html#nga-fen-qu-tie-zi",
@@ -10330,6 +10580,7 @@
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-ben-ke-ying-xin",
         "source": [
           "/tzgg/index.html",
+          "/tzgg",
           "/"
         ],
         "target": "/nju/admission"
@@ -10346,11 +10597,23 @@
         "target": "/nju/dafls"
       }
     ],
+    "elite": [
+      {
+        "title": "本科生交换生系统",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-ben-ke-sheng-yuan-jiao-huan-sheng-xi-tong",
+        "source": [
+          "/exchangesystem/index/more",
+          "/exchangesystem",
+          "/"
+        ]
+      }
+    ],
     "grawww": [
       {
         "title": "研究生院",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-yan-jiu-sheng-yuan",
         "source": [
+          "/main.htm",
           "/"
         ],
         "target": "/nju/gra"
@@ -10372,7 +10635,7 @@
         "title": "本科生院",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-ben-ke-sheng-yuan",
         "source": [
-          "/"
+          "/:type/list.htm"
         ],
         "target": "/nju/jw/:type"
       }
@@ -10382,7 +10645,7 @@
         "title": "人才招聘网",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-ren-cai-zhao-pin-wang",
         "source": [
-          "/"
+          "/sylm/:type/index.html"
         ],
         "target": "/nju/rczp/:type"
       }
@@ -10392,9 +10655,8 @@
         "title": "科学技术处",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-ke-xue-ji-shu-chu",
         "source": [
-          "/"
-        ],
-        "target": "/nju/scit/:type"
+          "/:type/list.htm"
+        ]
       }
     ],
     "webplus": [
@@ -10412,9 +10674,8 @@
         "title": "招标办公室",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-zhao-biao-ban-gong-shi",
         "source": [
-          "/"
-        ],
-        "target": "/nju/zbb/:type"
+          "/:type/index.chtml"
+        ]
       }
     ],
     "zcc": [
@@ -10422,6 +10683,8 @@
         "title": "资产管理处",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-zi-chan-guan-li-chu",
         "source": [
+          "/tzgg/gyfytdglk/index.html",
+          "/tzgg/index.html",
           "/"
         ],
         "target": "/nju/zcc"
@@ -10502,6 +10765,20 @@
         "docs": "https://docs.rsshub.app/new-media.html#nl-times",
         "source": "/top-stories",
         "target": "/nltimes/news/top-stories"
+      }
+    ]
+  },
+  "nmbxd1.com": {
+    "_name": "X岛匿名版",
+    "www": [
+      {
+        "title": "串",
+        "docs": "https://docs.rsshub.app/bbs.html#x-dao-ni-ming-ban",
+        "source": [
+          "/Forum/timeline/id/:id",
+          "/f/:id"
+        ],
+        "target": "/nmbxd1/:id"
       }
     ]
   },
@@ -10625,6 +10902,36 @@
   },
   "nua.edu.cn": {
     "_name": "南京艺术学院",
+    "index": [
+      {
+        "title": "官网信息",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-yi-shu-xue-yuan",
+        "source": [
+          "/:type/list.htm"
+        ],
+        "target": "/nua/index/:type"
+      }
+    ],
+    "sxw": [
+      {
+        "title": "双馨网",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-yi-shu-xue-yuan",
+        "source": [
+          "/:type/list.htm"
+        ],
+        "target": "/nua/sxw/:type"
+      }
+    ],
+    "dc": [
+      {
+        "title": "设计学院",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-yi-shu-xue-yuan",
+        "source": [
+          "/:type/list.htm"
+        ],
+        "target": "/nua/dc/:type"
+      }
+    ],
     "grad": [
       {
         "title": "研究生处",
@@ -11659,6 +11966,28 @@
       }
     ]
   },
+  "qianzhan.com": {
+    "_name": "前瞻网",
+    ".": [
+      {
+        "title": "文章列表",
+        "docs": "https://docs.rsshub.app/finance.html#qian-zhan-wang",
+        "source": [
+          "/analyst",
+          "/analyst/list/:html"
+        ]
+      },
+      {
+        "title": "排行榜",
+        "docs": "https://docs.rsshub.app/finance.html#qian-zhan-wang",
+        "source": [
+          "/analyst",
+          "/"
+        ],
+        "target": "/qianzhan/analyst/rank"
+      }
+    ]
+  },
   "qidian.com": {
     "_name": "起点",
     "book": [
@@ -11874,6 +12203,19 @@
           "/"
         ],
         "target": "/radio-canada/latest/:language?"
+      }
+    ]
+  },
+  "rarehistoricalphotos.com": {
+    "_name": "Rare Historical Photos",
+    ".": [
+      {
+        "title": "Home",
+        "docs": "https://docs.rsshub.app/en/picture.html#rare-historical-photos",
+        "source": [
+          "/"
+        ],
+        "target": "/rarehistoricalphotos"
       }
     ]
   },
@@ -13350,24 +13692,24 @@
       }
     ]
   },
-  "techflow520.com": {
+  "techflowpost.com": {
     "_name": "深潮TechFlow",
     ".": [
       {
-        "title": "分类",
-        "docs": "https://docs.rsshub.app/new-media.html#shen-chao-techflow-fen-lei",
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/new-media.html#shen-chao-techflow-shou-ye",
         "source": [
           "/"
         ],
-        "target": "/techflow520/:category?"
+        "target": "/techflowpost"
       },
       {
         "title": "快讯",
         "docs": "https://docs.rsshub.app/new-media.html#shen-chao-techflow-kuai-xun",
         "source": [
-          "/newsflash"
+          "/express"
         ],
-        "target": "/techflow520/newsflash"
+        "target": "/techflowpost/express"
       }
     ]
   },
@@ -13547,6 +13889,20 @@
           "/"
         ],
         "target": "/thepaper/factpaper/:status"
+      }
+    ]
+  },
+  "thwiki.cc": {
+    "_name": "THBWiki",
+    ".": [
+      {
+        "title": "日历",
+        "docs": "https://docs.rsshub.app/#thbwiki",
+        "source": [
+          "/",
+          "/日程表"
+        ],
+        "target": "/thwiki/calendar"
       }
     ]
   },
@@ -14160,6 +14516,17 @@
         "title": "关键词搜索",
         "docs": "https://docs.rsshub.app/multimedia.html#u3c3-guan-jian-ci-sou-suo",
         "source": "/"
+      }
+    ]
+  },
+  "udn.com": {
+    "_name": "聯合新聞網",
+    ".": [
+      {
+        "title": "即時新聞",
+        "docs": "https://docs.rsshub.app/new-media.html#lian-he-xin-wen-wang-ji-shi-xin-wen",
+        "source": "/news/breaknews/1/:id",
+        "target": "/udn/news/breakingnews/:id"
       }
     ]
   },
@@ -15472,6 +15839,27 @@
       }
     ]
   },
+  "yxdown.com": {
+    "_name": "游讯网",
+    ".": [
+      {
+        "title": "资讯",
+        "docs": "https://docs.rsshub.app/game.html#you-xun-wang",
+        "source": [
+          "/news/:category",
+          "/news"
+        ]
+      },
+      {
+        "title": "精彩推荐",
+        "docs": "https://docs.rsshub.app/game.html#you-xun-wang",
+        "source": [
+          "/"
+        ],
+        "target": "/yxdown/recommend"
+      }
+    ]
+  },
   "yxdzqb.com": {
     "_name": "游戏打折情报",
     ".": [
@@ -16029,39 +16417,6 @@
       }
     ]
   },
-  "manhuagui.com": {
-    "_name": "漫画柜",
-    "www": [
-      {
-        "title": "漫画更新",
-        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
-        "source": "/comic/:id/",
-        "target": "/manhuagui/comic/:id"
-      }
-    ]
-  },
-  "mhgui.com": {
-    "_name": "漫画柜镜像站",
-    "www": [
-      {
-        "title": "漫画更新",
-        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua-jing-xiang-zhan",
-        "source": "/comic/:id/",
-        "target": "/mhgui/comic/:id"
-      }
-    ]
-  },
-  "tw.manhuagui.com": {
-    "_name": "漫画柜台湾",
-    "www": [
-      {
-        "title": "漫画更新",
-        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua-tai-wan",
-        "source": "/comic/:id/",
-        "target": "/twmanhuagui/comic/:id"
-      }
-    ]
-  },
   "pgyer.com": {
     "_name": "蒲公英应用分发",
     "www": [
@@ -16179,35 +16534,6 @@
         "docs": "https://docs.rsshub.app/picture.html#bing-bi-zhi",
         "source": "",
         "target": "/bing"
-      }
-    ]
-  },
-  "dcard.tw": {
-    "_name": "Dcard",
-    "www": [
-      {
-        "title": "首頁帖子-最新",
-        "docs": "https://docs.rsshub.app/bbs.html#dcard",
-        "source": "/f",
-        "target": "/dcard/posts/latest"
-      },
-      {
-        "title": "首頁帖子-熱門",
-        "docs": "https://docs.rsshub.app/bbs.html#dcard",
-        "source": "/f",
-        "target": "/dcard/posts/popular"
-      },
-      {
-        "title": "板塊帖子-最新",
-        "docs": "https://docs.rsshub.app/bbs.html#dcard",
-        "source": "/f/:section",
-        "target": "/dcard/:section/latest"
-      },
-      {
-        "title": "板塊帖子-熱門",
-        "docs": "https://docs.rsshub.app/bbs.html#dcard",
-        "source": "/f/:section",
-        "target": "/dcard/:section/popular"
       }
     ]
   },

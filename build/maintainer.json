@@ -200,6 +200,9 @@
     "/aliyun/notice/:type?": [
         "muzea"
     ],
+    "/aliyundrive/files/:share_id/:parent_file_id?": [
+        "DIYgod"
+    ],
     "/allrecode/news": [
         "nczitzk"
     ],
@@ -512,6 +515,9 @@
     "/blockbeats/:channel?": [
         "Fatpandac"
     ],
+    "/bluestacks/release/5": [
+        "TonyRL"
+    ],
     "/bnu/bs/:category?": [
         "nczitzk"
     ],
@@ -723,6 +729,9 @@
     "/csu/cse/:type?": [
         "j1g5awi"
     ],
+    "/cts/:category": [
+        "miles170"
+    ],
     "/dahecube/:type?": [
         "linbuxiao"
     ],
@@ -744,6 +753,12 @@
     ],
     "/dbmv/:category?": [
         "kba977"
+    ],
+    "/dcard/posts/:type?": [
+        "DIYgod"
+    ],
+    "/dcard/:section/:type?": [
+        "HenryQW"
     ],
     "/ddosi/": [
         "XinRoom"
@@ -1157,6 +1172,18 @@
     "/gamersecret/:type?/:category?": [
         "nczitzk"
     ],
+    "/gamme/news/:category?": [
+        "TonyRL"
+    ],
+    "/gamme/news/tag/:tag": [
+        "TonyRL"
+    ],
+    "/gamme/sexynews/:category?": [
+        "TonyRL"
+    ],
+    "/gamme/sexynews/tag/:tag": [
+        "TonyRL"
+    ],
     "/gaze/update/:mid": [
         "zytomorrow"
     ],
@@ -1347,6 +1374,9 @@
     "/gov/nmpa/:path+": [
         "TonyRL"
     ],
+    "/gov/nopss/:path+": [
+        "nczitzk"
+    ],
     "/gov/nrta/news/:category?": [
         "yuxinliu-alex"
     ],
@@ -1413,6 +1443,16 @@
     ],
     "/gov/xuzhou/hrss/:category?": [
         "nczitzk"
+    ],
+    "/greasyfork/:language/:domain?": [
+        "imlonghao",
+        "miles170"
+    ],
+    "/greasyfork/scripts/:script/feedback": [
+        "miles170"
+    ],
+    "/greasyfork/scripts/:script/versions": [
+        "miles170"
     ],
     "/guancha/:category?": [
         "nczitzk",
@@ -2186,6 +2226,9 @@
     "/logonews/": [
         "nczitzk"
     ],
+    "/loltw/news/:category?": [
+        "hoilc"
+    ],
     "/lovelive-anime/news/:option?": [
         "axojhf"
     ],
@@ -2200,6 +2243,18 @@
     ],
     "/macfilos/blog": [
         "nczitzk"
+    ],
+    "/manhuagui/comic/:id/:chapterCnt?": [
+        "MegrezZhu"
+    ],
+    "/manhuagui/mhgui/comic/:id/:chapterCnt?": [
+        "btdwv"
+    ],
+    "/manhuagui/subscribe": [
+        "shininome"
+    ],
+    "/manhuagui/twmanhuagui/comic/:id/:chapterCnt?": [
+        "btdwv"
     ],
     "/mcachicago/exhibitions": [
         "chazeon"
@@ -2360,6 +2415,9 @@
     "/newsmarket/:category?": [
         "nczitzk"
     ],
+    "/nextapple/realtime/:category?": [
+        "miles170"
+    ],
     "/nga/forum/:fid/:recommend?": [
         "xyqfer"
     ],
@@ -2399,6 +2457,9 @@
     ],
     "/nju/dafls": [
         "ret-1"
+    ],
+    "/nju/exchangesys": [
+        "cqjjjzr"
     ],
     "/nju/gra": [
         "ret-1"
@@ -2451,6 +2512,9 @@
     "/nltimes/news/:category?": [
         "Hivol"
     ],
+    "/nmbxd1/:id": [
+        "miles170"
+    ],
     "/nodejs/blog/:language?": [
         "nczitzk"
     ],
@@ -2485,18 +2549,26 @@
     "/ntdtv/:language/:id": [
         "Fatpandac"
     ],
+    "/nua/dc/:type": [
+        "evnydd0sf"
+    ],
     "/nua/gra/:type": [
         "evnydd0sf"
     ],
+    "/nua/index/:type": [
+        "evnydd0sf"
+    ],
+    "/nua/sxw/:type": [
+        "evnydd0sf"
+    ],
     "/nuaa/cae/:type/:getDescription?": [
-        "Seiry",
-        "qrzbing",
         "Xm798"
     ],
     "/nuaa/cs/:type/:getDescription?": [
         "LogicJake",
         "Seiry",
-        "qrzbing"
+        "qrzbing",
+        "Xm798"
     ],
     "/nuaa/jwc/:type/:getDescription?": [
         "arcosx",
@@ -2817,6 +2889,12 @@
     "/qbittorrent/news": [
         "TonyRL"
     ],
+    "/qianzhan/analyst/column/:type?": [
+        "moke8"
+    ],
+    "/qianzhan/analyst/rank/:type?": [
+        "moke8"
+    ],
     "/qidian/author/:id": [
         "miles170"
     ],
@@ -2893,6 +2971,9 @@
     ],
     "/radio-canada/latest/:language?": [
         "nczitzk"
+    ],
+    "/rarehistoricalphotos/": [
+        "TonyRL"
     ],
     "/remnote/changelog": [
         "TonyRL"
@@ -3241,10 +3322,10 @@
         "TonyRL",
         "ETiV"
     ],
-    "/techflow520/newsflash": [
+    "/techflowpost/express": [
         "nczitzk"
     ],
-    "/techflow520/:category?": [
+    "/techflowpost/": [
         "nczitzk"
     ],
     "/telegram/telegram/channel/:username/:routeParams?": [
@@ -3317,6 +3398,9 @@
     ],
     "/thepaper/list/:id": [
         "nczitzk"
+    ],
+    "/thwiki/calendar/:before?/:after?": [
+        "aether17"
     ],
     "/tiktok/user/:user": [
         "TonyRL"
@@ -3443,6 +3527,9 @@
     ],
     "/ucas/job/:type?": [
         "Fatpandac"
+    ],
+    "/udn/news/breakingnews/:id": [
+        "miles170"
     ],
     "/uibe/hr/:category?/:type?": [
         "nczitzk"
@@ -3844,6 +3931,12 @@
     "/yunspe/newsflash": [
         "x2009again"
     ],
+    "/yxdown/news/:category?": [
+        "nczitzk"
+    ],
+    "/yxdown/recommend": [
+        "nczitzk"
+    ],
     "/yxdzqb/:type": [
         "LogicJake",
         "nczitzk"
@@ -4103,7 +4196,6 @@
     "/un/scveto": [],
     "/egsea/flash": [],
     "/xuangubao/subject/:subject_id": [],
-    "/greasyfork/:language/:domain?": [],
     "/gwern/:category": [],
     "/linkedkeeper/:type/:id?": [],
     "/technologyreview": [],
@@ -4324,9 +4416,6 @@
     "/xiachufang/popular/:timeframe?": [],
     "/eeo/:column?/:category?": [],
     "/tencentvideo/playlist/:id": [],
-    "/manhuagui/comic/:id/:chapterCnt?": [],
-    "/mhgui/comic/:id/:chapterCnt?": [],
-    "/twmanhuagui/comic/:id/:chapterCnt?": [],
     "/copymanga/comic/:id/:chapterCnt?": [],
     "/copymanga/comic/:id": [],
     "/cartoonmad/comic/:id": [],
@@ -4445,7 +4534,6 @@
     "/instapaper/person/:name": [],
     "/ui-cn/article": [],
     "/ui-cn/user/:id": [],
-    "/dcard/:section/:type?": [],
     "/bjp/apod": [],
     "/luogu/daily/:id?": [],
     "/luogu/contest": [],
@@ -4928,7 +5016,6 @@
     "/hbut/news/:type": [],
     "/hbut/cs/:type": [],
     "/acwifi": [],
-    "/adnmb/:pid": [],
     "/mittrchina/:type": [],
     "/iyouport/article": [],
     "/iyouport/:category?": [],
@@ -5316,8 +5403,6 @@
     "/shinybbs": [],
     "/tianyancha/hot": [],
     "/kingarthur/:type": [],
-    "/yxdown/recommend": [],
-    "/yxdown/news/:category?": [],
     "/babehub/search/:keyword?": [],
     "/babehub/:category?": [],
     "/sznews/press": [],
