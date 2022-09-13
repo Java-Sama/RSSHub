@@ -2969,6 +2969,34 @@
       }
     ]
   },
+  "cw.com.tw": {
+    "_name": "天下雜誌",
+    ".": [
+      {
+        "title": "最新上線",
+        "docs": "https://docs.rsshub.app/traditional-media.html#tian-xia-za-zhi",
+        "source": [
+          "/today",
+          "/"
+        ],
+        "target": "/cw/today"
+      },
+      {
+        "title": "主頻道",
+        "docs": "https://docs.rsshub.app/traditional-media.html#tian-xia-za-zhi",
+        "source": [
+          "/masterChannel.action"
+        ]
+      },
+      {
+        "title": "子頻道",
+        "docs": "https://docs.rsshub.app/traditional-media.html#tian-xia-za-zhi",
+        "source": [
+          "/subchannel.action"
+        ]
+      }
+    ]
+  },
   "dahecube.com": {
     "_name": "大河财立方",
     ".": [
@@ -3086,6 +3114,20 @@
           "/category/:category/"
         ],
         "target": "/ddosi/category/:category"
+      }
+    ]
+  },
+  "deepmind.com": {
+    "_name": "DeepMind",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/new-media.html#deepmind",
+        "source": [
+          "/blog",
+          "/"
+        ],
+        "target": "/blog"
       }
     ]
   },
@@ -6121,6 +6163,33 @@
       }
     ]
   },
+  "hit.edu.cn": {
+    "_name": "哈尔滨工业大学",
+    "jwc": [
+      {
+        "title": "哈尔滨工业大学教务处通知公告",
+        "docs": "https://docs.rsshub.app/university.html#ha-er-bin-gong-ye-da-xue",
+        "source": "/*",
+        "target": "/hit/jwc"
+      }
+    ],
+    "today": [
+      {
+        "title": "今日哈工大",
+        "docs": "https://docs.rsshub.app/university.html#ha-er-bin-gong-ye-da-xue",
+        "source": "/category/:category",
+        "target": "/hit/today/:category"
+      }
+    ],
+    "hitgs": [
+      {
+        "title": "哈工大研究生院通知公告",
+        "docs": "https://docs.rsshub.app/university.html#ha-er-bin-gong-ye-da-xue",
+        "source": "/*",
+        "target": "/hit/hitgs"
+      }
+    ]
+  },
   "hizh.cn": {
     "_name": "珠海网",
     ".": [
@@ -9039,6 +9108,19 @@
       }
     ]
   },
+  "linovelib.com": {
+    "_name": "哩哔轻小说",
+    ".": [
+      {
+        "title": "小说详情",
+        "docs": "https://docs.rsshub.app/anime.html#linovelib",
+        "source": [
+          "/novel/:id"
+        ],
+        "target": "/linovellib/novel/:id"
+      }
+    ]
+  },
   "literotica.com": {
     "_name": "Literotica",
     ".": [
@@ -9286,6 +9368,52 @@
       }
     ]
   },
+  "sonymusic.co.jp": {
+    "_name": "Sony Music",
+    "www": [
+      {
+        "title": "LiSA News",
+        "docs": "https://docs.rsshub.app/en/live.html#lisa",
+        "source": [
+          "/artist/lisa/",
+          "/artist/lisa/info/"
+        ],
+        "target": "/lxixsxa/info"
+      },
+      {
+        "title": "LiSA Albums",
+        "docs": "https://docs.rsshub.app/en/live.html#lisa",
+        "source": [
+          "/artist/lisa/",
+          "/artist/lisa/discography/"
+        ],
+        "target": "/lxixsxa/disco"
+      }
+    ]
+  },
+  "lxixsxa.com": {
+    "_name": "LiSA Official",
+    "www": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/en/live.html#lisa",
+        "source": [
+          "/",
+          "/info"
+        ],
+        "target": "/lxixsxa/info"
+      },
+      {
+        "title": "Albums",
+        "docs": "https://docs.rsshub.app/en/live.html#lisa",
+        "source": [
+          "/",
+          "/discography"
+        ],
+        "target": "/lxixsxa/disco"
+      }
+    ]
+  },
   "macfilos.com": {
     "_name": "Macfilos",
     ".": [
@@ -9372,6 +9500,19 @@
           "/department/details",
           "/"
         ]
+      }
+    ]
+  },
+  "meituclub.com": {
+    "_name": "妹图社",
+    ".": [
+      {
+        "title": "最新",
+        "docs": "https://docs.rsshub.app/picture.html#mei-tu-she-zui-xin",
+        "source": [
+          "/"
+        ],
+        "target": "/meituclub/latest"
       }
     ]
   },
@@ -12405,6 +12546,37 @@
           "/"
         ],
         "target": "/samsung/research/blog"
+      }
+    ]
+  },
+  "science.org": {
+    "_name": "Science Magazine",
+    ".": [
+      {
+        "title": "本期刊物",
+        "docs": "https://docs.rsshub.app/journal.html#science-xi-lie",
+        "source": [
+          "/journal/:journal",
+          "/toc/:journal/current"
+        ],
+        "target": "/science/current/:journal"
+      },
+      {
+        "title": "封面故事",
+        "docs": "https://docs.rsshub.app/journal.html#science-xi-lie",
+        "source": [
+          "/"
+        ],
+        "target": "/science/cover"
+      },
+      {
+        "title": "在线发表",
+        "docs": "https://docs.rsshub.app/journal.html#science-xi-lie",
+        "source": [
+          "/journal/:journal",
+          "/toc/:journal/0/0"
+        ],
+        "target": "/science/early/:journal"
       }
     ]
   },
